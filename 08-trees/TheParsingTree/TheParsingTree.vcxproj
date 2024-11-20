@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b699606b-e4e5-4b4d-892e-4057ca38a3a8}</ProjectGuid>
-    <RootNamespace>SearchTree</RootNamespace>
+    <ProjectGuid>{a88928be-66c7-4c47-9658-2f42bd2cacda}</ProjectGuid>
+    <RootNamespace>TheParsingTree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Stack\stack.c" />
+    <ClCompile Include="..\Stack\testsForStack.c" />
+    <ClCompile Include="..\Tree\testsForTree.c" />
+    <ClCompile Include="..\Tree\tree.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="testsForTheParsingTree.c" />
+    <ClCompile Include="theParsingTree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Stack\stack.h" />
+    <ClInclude Include="..\Stack\testsForStack.h" />
+    <ClInclude Include="..\Tree\testsForTree.h" />
+    <ClInclude Include="..\Tree\tree.h" />
+    <ClInclude Include="testsForTheParsingTree.h" />
+    <ClInclude Include="theParsingTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="arithmeticExpression.txt" />
+    <Text Include="test1.txt" />
+    <Text Include="test2.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
