@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{b699606b-e4e5-4b4d-892e-4057ca38a3a8}</ProjectGuid>
-    <RootNamespace>SearchTree</RootNamespace>
+    <ProjectGuid>{c00d448a-3d71-43e7-a6fe-b672cfeaa8e7}</ProjectGuid>
+    <RootNamespace>Tree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,17 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Tree\testsForTree.c" />
-    <ClCompile Include="..\Tree\tree.c" />
-    <ClCompile Include="dictionary.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="testsForDictionary.c" />
+    <ClCompile Include="testsForTree.c" />
+    <ClCompile Include="tree.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Tree\testsForTree.h" />
-    <ClInclude Include="..\Tree\tree.h" />
-    <ClInclude Include="dictionary.h" />
-    <ClInclude Include="testsForDictionary.h" />
+    <ClInclude Include="testsForTree.h" />
+    <ClInclude Include="tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
