@@ -18,18 +18,18 @@
     <ClCompile Include="main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="dictionary.c">
+    <ClCompile Include="tree.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="testsForDictionary.c">
+    <ClCompile Include="testsForTree.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dictionary.h">
+    <ClInclude Include="tree.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="testsForDictionary.h">
+    <ClInclude Include="testsForTree.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
