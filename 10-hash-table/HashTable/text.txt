@@ -1,0 +1,22 @@
+Half the battle is knowing what problem to solve. When initially approached, most 
+problems have no simple, precise specification. In fact, certain problems, such as creating a 
+"gourmet" recipe or preserving world peace, may be impossible to formulate in terms that 
+admit of a computer solution. Even if we suspect our problem can be solved on a computer, 
+there is usually considerable latitude in several problem parameters. Often it is only by 
+experimentation that reasonable values for these parameters can be found.
+
+    If certain aspects of a problem can be expressed in terms of a formal model, it is usually 
+beneficial to do so, for once a problem is formalized, we can look for solutions in terms of 
+a precise model and determine whether a program already exists to solve that problem. 
+Even if there is no existing program, at least we can discover what is known about this 
+model and use the properties of the model to help construct a good solution.
+
+    Almost any branch of mathematics or science can be called into service to help model 
+some problem domain. Problems essentially numerical in nature can be modeled by such 
+common mathematical concepts as simultaneous linear equations (e.g., finding currents in 
+electrical circuits, or finding stresses in frames made of connected beams) or differential 
+equations (e.g., predicting population growth or the rate at which chemicals will react). 
+Symbol and text processing problems can be modeled by character strings and formal 
+grammars. Problems of this nature include compilation (the translation of programs written 
+in a programming language into machine language) and information retrieval tasks such as 
+recognizing particular words in lists of titles owned by a library.
